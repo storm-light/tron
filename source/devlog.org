@@ -1,0 +1,12 @@
+* hi
+** DONE Make scoring system
+** DONE Polish collision
+** DONE include boosts
+** DONE fix bus error: 10
+** DONE color key to add in grid
+** DONE add instructions at beginning
+** TODO fixed lives/endscore to keep intensity
+** TODO fix being able to turn too quickly
+** TODO create macOS app w/ cmake, then NSHighResolutionCapable Info.plist property to YES
+** TODO create AI
+** TODO develop next gaim with key movement n melee

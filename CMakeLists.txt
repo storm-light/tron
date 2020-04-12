@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.1)
+project(TRON)
+
+# set(CMAKE_CXX_FLAGS "-g -Wall")
+
+INCLUDE(FindPkgConfig)
+
+PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)
+PKG_SEARCH_MODULE(SDL2IMAGE REQUIRED SDL2_image>=2.0.0)
+PKG_SEARCH_MODULE(SDL2TTF REQUIRED SDL2_ttf>=2.0.14)
+
+# message(STATUS ${SDL2IMAGE_INCLUDE_DIRS})
+
+add_subdirectory(source)
+
